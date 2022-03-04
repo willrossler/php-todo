@@ -1,0 +1,6 @@
+CREATE TABLE tasks (
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+title VARCHAR (100) NOT NULL,
+describer VARCHAR (100) NOT NULL,
+completed tinyint (1) NOT NULL
+)

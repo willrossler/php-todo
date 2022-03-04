@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+table,
+form {
+  width: 50%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  border: none;
+  height: 30px;
+  padding: 2px;
+}
+
+.subheadline {
+  font-size: 28px;
+}
+.btn {
+  padding: 6px;
+  font-size: 15px;
+  color: white;
+  background: #4e57a7;
+  border: none;
+  border-radius: 5px;
+}
+.edit_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #2e4f8b;
+  color: white;
+  border-radius: 3px;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
+.done_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #00800b;
+}
